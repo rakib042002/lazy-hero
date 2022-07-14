@@ -1,0 +1,357 @@
+@media only screen and (min-width: 2000px) and (max-width: 3000px) { 
+
+.road-text .col {
+  height: auto;
+}
+
+.road-text-content span {
+  font-size: 25px;
+}
+.road-text-content p {
+  font-size: 19px;
+}
+.col:nth-child(1) .road-text-content {
+  top: 35%;
+}
+.banner-about {
+  background-position: top center;
+}
+.banner-content {
+  height: 1550px;
+}
+.col:nth-child(2) .road-text-content {
+  top: 31%;
+}
+
+
+
+}
+
+/* Medium/laptop Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+.about-content {
+}
+.section-title {
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+.dis p {
+  font-size: 14px;
+}
+.about-area p {
+  font-size: 14px;
+}
+.banner-area {
+  height: 650px;
+}
+.about-area {
+  height: 550px;
+}
+.roadmap-area {
+  padding: 50px 0;
+}
+.roadmap-counter h5 {
+  font-size: 20px;
+}
+.road-text-content {
+  display: none
+}
+.road-text {
+  display: none;
+}
+#faq {
+  padding: 50px 0px;
+}
+.faq .col-md-4:nth-child(1) .content {
+  left: 20%;
+  top: 18%;
+  width: ;
+}
+.faq .col-md-4:nth-child(2) .content {
+  left: 15%;
+  top: 15%;
+  width: 245px;
+  font-size: 10px;
+}
+.faq .title {
+  font-size: 22px;
+}
+.cloud-2 {
+  bottom: 64px;
+}
+.who-are-we .name {
+  font-size: 20px;
+}
+.who-are-we .position {
+  font-size: 20px;
+}
+.wew-right-content .title {
+  font-size: 40px;
+}
+.wew-right-content .content p {
+  font-size: 22px;
+}
+
+footer .social-bar img {
+  height: 40px;
+}
+.navbar-brand img {
+  max-width: auto;
+}
+
+
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.navbar-brand img {
+  max-width: inherit;
+}
+
+ ul.menu li a {
+    padding: 20px;
+}
+    span.mobile-option {
+    display: none;
+}
+
+.about-area .social-bar h4 {
+    font-size: 23px;
+}
+
+.about-area .social-bar a i {
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
+
+.about-area {
+    height: 500px;
+}
+
+.line {
+    margin: 100px 0px;
+}
+
+.roadmap-counter h5 {
+    font-size: 18px;
+}
+
+.road-text {
+    display: none;
+}
+
+.roadmap-area {
+    padding: 40px 0px;
+}
+.mobile-option{
+	display: none;
+}
+
+.faq .col-md-4:nth-child(1) .content {
+    left: 18px;
+    font-size: 10px;
+    top: 33px;
+}
+
+.faq .col-md-4:nth-child(2) .content {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.faq .col-md-4:nth-child(3) .content {
+    width: 190px;
+    overflow: hidden;
+    height: 149px;
+}
+
+.faq .col-md-4:nth-child(4) .content {
+    width: 161px;
+    height: 310px;
+    overflow: hidden;
+}
+
+.faq .col-md-4:nth-child(6) .content {
+    width: 150px;
+    height: 270px;
+    overflow: hidden;
+}
+.who-are-we .name {
+    font-size: 18px;
+}
+
+.who-are-we .position {
+    font-size: 18px;
+}
+
+p {}
+
+.who-are-we p {
+    font-size: 12px;
+}
+
+.wew-right-content .title {
+    font-size: 30px;
+}
+
+.wew-right-content .content p {
+    font-size: 18px;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+.navbar-brand img {
+  max-width: auto;
+}
+.menu-area {
+  display: none;
+}
+.banner-area {
+  height: 400px;
+}
+.banner-btn {
+  top: 230px;
+  margin-left: -40px;
+}
+.banner-btn a {
+  font-size: 12px;
+  padding: 5px 15px;
+  left: ;
+}
+.section-title {
+  font-size: 40px;
+}
+.about-content {
+  text-align: center;
+}
+.mobile-option{
+  display: none;
+}
+.col {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.about-content {}
+
+.about-content {
+    padding: 0;
+}
+
+.col:nth-child(1) .road-text-content {
+    position: absolute;
+    left: 30px;
+    top: 70%;
+    font-size: 18px;
+}
+
+.col:nth-child(2) .road-text-content {
+    width: 300px;
+    margin-top: -70px;
+    margin-left: 62px;
+    font-size: 20px;
+}
+
+.road-text-content {
+    margin-bottom: 58px;
+}
+
+.col {
+}
+
+.road-text {
+    display: none;
+}
+
+.roadmap-area {
+    padding: 0;
+    text-align: -webkit-right;
+}
+
+.wew-right-content .content p {
+    font-size: 20px;
+}
+
+.menu-area {
+  display: none;
+}
+.banner-content {
+}
+.banner-area {
+  height: 800px;
+}
+.banner-btn {
+  bottom: 100px;
+}
+.mobile-option {
+  display: none;
+}
+h4 {
+}
+.about-area .social-bar h4 {
+  font-size: 20px;
+}
+.about-area .social-bar a i {
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  left: ;
+  line-height: 30px;
+}
+.roadmap-counter .col {
+  display: block;
+  height: 100px;
+  line-height: 100px;
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+.line {
+  margin: 30px;
+}
+.road-text {
+  display: none;
+}
+#roadmap {
+  padding: 10px;
+}
+#faq {
+  padding: 50px;
+}
+.faq .col-md-4:nth-child(2) img {
+  width: 363px;
+}
+.faq .col-md-4:nth-child(2) .content {
+  width: 250px;
+}
+.cloud-2 {
+  bottom: -40px;
+}
+footer h2 {
+  font-size: 50px;
+}
+footer .social-bar img {
+  height: 54px;
+  margin-bottom: 10px;
+}
+.about-area .social-bar {
+  margin-top: -15px;
+}
+.cloud-2 {
+  display: none;
+}
+.waw-content {
+  margin-bottom: 35px;
+}
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+
+}

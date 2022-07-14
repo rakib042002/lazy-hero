@@ -1,0 +1,574 @@
+@import  url("assets/css/navigation.css");
+@font-face {
+  font-family: CFont;
+  src: url(assets/fonts/JungleHope.eot),
+  url(assets/fonts/JungleHope.svg),
+  url(assets/fonts/JungleHope.ttf),
+  url(assets/fonts/JungleHope.woff),
+  url(assets/fonts/JungleHope.otf);
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+    font-family: 'CFont';
+}
+a:hover { text-decoration: none;color:#167ac6; }
+
+
+ /*menu css start*/
+ /*menu css start*/
+ /*menu css start*/
+.fixd-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
+.menu-area {
+    height: 70px;
+    background: #60b2f1;
+    line-height: 70px;
+}
+
+ul.menu {
+    list-style: none;
+    display: flex;
+    float: right;
+}
+ul.menu li a {
+    color: #fff591;
+    text-decoration: none;
+    padding: 40px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+ul.menu li a:hover {
+    color: #fff;
+}
+.ml-auto, .mx-auto {
+  margin-left: auto !important;
+}
+/*menu css end*/
+/*menu css end*/
+/*menu css end*/
+
+
+/*banner css start*/
+/*banner css start*/
+/*banner css start*/
+
+/*.banner-area {
+  background-image: url(assets/img/banner/bg_homepage_1265.jpg);
+  height: 97%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-top: 70px;
+}
+.about-area {
+  background-image: url(assets/img/about/bigger_about.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 123%;
+  color: #255f8c;
+}
+*/
+
+
+.banner-about {
+  background-image: url(assets/img/about/banner-about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #255f8c;
+  padding-bottom: 100px;
+}
+
+
+.banner-content {
+    height: 750px;
+    text-align: center;
+}
+.banner-btn a {
+    text-decoration: none;
+    background: #fff;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+.banner-btn a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.banner-btn a:hover {
+    border: 1px solid #fff591;
+    background: #fff591;
+    color: #fff;
+}
+.btn-1 {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  color: black;
+  animation: fall 1.5s infinite;
+  font-size: 30px;
+  transform: translatex(-50%);
+}
+@keyframes fall {
+  0%   {
+    bottom: 50px;
+    opacity: 0.5;
+  }
+  25%  {
+    bottom: 40px;
+    opacity: 1;
+}
+  50%  {
+    bottom: 30px;
+    opacity:1;}
+  75%  {
+    bottom: 20px;
+    opacity: 0.5;
+}
+  100% {
+    bottom: 10px;
+    opacity: 0;}
+}
+.lazy-hero {
+  position: absolute;
+  left: 50%;
+  top: 14%;
+  transform: translateX(-50%);
+}
+.lazy-hero img {
+  width: 500px;
+}
+/*banner css end*/
+/*banner css end*/
+/*banner css end*/
+
+/*about css start*/
+/*about css start*/
+/*about css start*/
+
+
+.about-content {
+    padding-left: 80px;
+}
+
+.section-title{
+    font-size: 80px;
+    padding-bottom: 30px;
+}
+.about-area p{
+    font-size: 20px;
+}
+.about-area .social-bar {
+    display: flex;
+}
+
+.about-area .social-bar h4 {
+    font-size: 40px;
+}
+.about-area .social-bar a{
+    padding-left: 30px;;
+  }
+
+.about-area .social-bar a i{
+    font-size: 40px;
+    height:80px;
+    width:80px;
+    background:#fff;
+    line-height:80px;
+    text-align:center;
+    border-radius:50%;
+    margin-top:-20px;
+}
+.about-area .social-bar{
+    margin-top: 30px;
+}
+
+
+/*about css end*/
+/*about css end*/
+/*about css end*/
+
+
+/*roadmap area css*/
+/*roadmap area css*/
+/*roadmap area css*/
+
+.roadmap-area{
+    padding: 100px 0px;
+    background-image: url(assets/img/roadmap/bg_roadmap.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.roadmap-counter .col{
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    line-height: 200px;
+    font-size: 50px;
+}
+
+.roadmap-counter h5{
+    font-size: 24px;
+    color: #fff591;
+}
+
+
+.roadmap-counter .col:nth-child(1) {
+  background-image: url(assets/img/roadmap/shape1.png);
+}
+.roadmap-counter .col:nth-child(2) {
+  background-image: url(assets/img/roadmap/shape2.png);
+}
+.roadmap-counter .col:nth-child(3) {
+  background-image: url(assets/img/roadmap/shape3.png);
+}
+.roadmap-counter .col:nth-child(4) {
+  background-image: url(assets/img/roadmap/shape4.png);
+}
+.roadmap-counter .col:nth-child(5) {
+  background-image: url(assets/img/roadmap/shape5.png);
+}
+
+
+.line {
+    margin: 80px 0px 20px 0px;
+}
+ .road-text-content {
+     font-size:13px;
+ }
+  .road-text-content span{
+      font-size:16px;
+  }
+
+
+
+
+.roadmap-count {
+    color: #fff;
+}
+.road-text .col {
+    position: relative;
+    height: 200px;
+    text-align:center}
+
+.col:nth-child(1) .road-text-content {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.road-text-content p {
+  font-size: 9px;
+}
+.col:nth-child(2) .road-text-content {
+  position: absolute;
+  font-size: 11px;
+  margin-top: 16%;
+}
+
+.col:nth-child(3) .road-text-content {
+    position: absolute;
+    top: 50%;
+    margin-top:0px;
+}
+
+.col:nth-child(4) .road-text-content {
+    position: absolute;
+}
+
+.col:nth-child(5) .road-text-content {
+    position: absolute;
+    font-size:11px;
+}
+.road-text-content {
+  color: #fff;
+  width: 69% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  top: 50%;
+}
+/*roadmap area css*/
+/*roadmap area css*/
+/*roadmap area css*/
+
+
+/*faq are we css start*/
+/*faq are we css start*/
+/*faq are we css start*/
+
+.faq {
+  background-image: url("assets/img/faq/Fichier 31.png");
+  padding: 96px 0px;
+  position: relative;
+}
+.faq .section-title {
+    color: #fff591;
+}
+
+.cloud-1,.cloud-2{
+    position: absolute;
+}
+
+.cloud-1 {
+  bottom: 120px;
+  right: 10%;
+}
+.cloud-1 img {
+  height: 50px !important;
+}
+.cloud-2 img{
+    height: 140px !important;
+}
+.cloud-2{
+    bottom: 50px;
+    left:40%;
+    z-index: 1
+}
+
+
+.faq .col-md-4{
+  position: relative
+}
+.faq .title{
+  font-size: 24px;
+}
+.faq span{
+  font-size: 20px;
+}
+.faq .content{
+  position: absolute;
+  text-align: center;
+  font-size: 16px; 
+  color: #fff;
+}
+.faq .col-md-4:nth-child(2) img{
+  height: 350px
+}
+.faq .col-md-4:nth-child(1) .content{
+  left: 30%;
+  top: 30%;
+  width: 200px;
+}
+.faq .col-md-4:nth-child(2) img{
+  height: 350px
+}
+.faq .col-md-4:nth-child(2) .content{
+  left: 15%;
+  top:15%;
+  width: 280px;
+  font-size: 11px;
+}
+.faq .col-md-4:nth-child(3) img{
+  height: 300px
+}
+.faq .col-md-4:nth-child(3) .content{
+  left: 12%;
+  top:15%;
+  width: 200px;
+  font-size: 11px
+}
+
+.faq .col-md-4:nth-child(4) img{
+  height: 400px;
+}
+.faq .col-md-4:nth-child(4) .content{
+  left: 18%;
+  top:8%;
+  width: 200px;
+  font-size: 12px
+}
+
+.faq .col-md-4:nth-child(4) img{
+  height: 400px;
+}
+.faq .col-md-4:nth-child(4) .content{
+  left: 18%;
+  top:8%;
+  width: 200px;
+  font-size: 12px
+}
+
+.faq .col-md-4:nth-child(6) img{
+  height: 350px;
+}
+.faq .col-md-4:nth-child(6) .content{
+  left: 24%;
+  top:8%;
+  width: 200px;
+  font-size: 12px
+}
+
+
+/*faq are we css end*/
+/*faq are we css end*/
+/*faq are we css end*/
+
+
+
+
+/*who are we css start*/
+/*who are we css start*/
+/*who are we css start*/
+
+.who-are-we{
+    background-image: url("assets/img/waw/Fichier 32.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0px;
+    position: relative;
+}
+
+.dotted {
+    position: absolute;
+    background:  #fff591;
+    content: "";
+    border-radius: 50%;
+}
+
+span.dotted:nth-child(1) {
+    height: 10px;
+    width: 10px;
+    left: 25%;
+    top: 64px;
+}
+span.dotted:nth-child(2) {
+    height: 7px;
+    width: 7px;
+    left: 25%;
+    top: 300px;
+}
+span.dotted:nth-child(3) {
+    height: 6px;
+    width: 6px;
+    left: 35%;
+    top: 84px;
+}
+span.dotted:nth-child(4) {
+    height: 8px;
+    width: 8px;
+    left: 40%;
+    top: 50px;
+}
+span.dotted:nth-child(5) {
+    height: 15px;
+    width: 15px;
+    left: 50%;
+    top: 300px;
+}
+span.dotted:nth-child(6) {
+    height: 12px;
+    width: 12px;
+    left: 62%;
+    top: 150px;
+}
+span.dotted:nth-child(7) {
+    height: 7px;
+    width: 7px;
+    left: 62%;
+    top: 104px;
+}
+span.dotted:nth-child(8) {
+    height: 10px;
+    width: 10px;
+    left: 65%;
+    top: 54px;
+}
+span.dotted:nth-child(9) {
+    height: 5px;
+    width: 5px;
+    left: 80%;
+    top: 94px;
+}
+
+.who-are-we img{
+    height: 180px;
+}
+.who-are-we .name{
+    font-size:22px;
+}
+.who-are-we .position{
+    font-size: 22px;
+}
+
+.wew-right-content{
+    text-align: left;
+}
+.wew-right-content .title {
+    font-size: 45px;
+    color:  #fff591;
+    padding-bottom: 30px;
+}
+
+.wew-right-content .content p {
+    font-size: 24px;
+}
+
+/*footer css start*/
+/*footer css start*/
+/*footer css start*/
+
+footer {
+  background-image: url("assets/img/footer/bigger_footer_illu.png");
+  padding: 150px;
+  background-position: center;
+  background-size: cover;
+}
+footer h2 {
+  font-size: 120px;
+  color: #FFF15F;
+  margin-bottom: 50px;
+}
+.text-center {
+    width: 100%;
+}
+
+/*copyright area css*/
+/*copyright area css*/
+/*copyright area css*/
+
+
+.copyright-bar {
+  text-align: center;
+  background: #052453;
+  padding: 10px;
+}
+.copyright-bar p {
+  color: #fff;
+  font-size: 10px;
+}
+/*copyright area css end*/
+/*copyright area css end*/
+/*copyright area css end*/
+
